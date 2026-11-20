@@ -1,0 +1,113 @@
+.tef-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+}
+
+.tef-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 1.6;
+    background: #dcdcde;
+    color: #1d2327;
+}
+
+.tef-badge-completed {
+    background: #c6e1c6;
+    color: #1e4620;
+}
+
+.tef-badge-created {
+    background: #f8dda7;
+    color: #5c3d00;
+}
+
+.tef-badge-draft {
+    background: #c5d9ed;
+    color: #0a3a66;
+}
+
+.tef-badge-failed {
+    background: #eba3a3;
+    color: #570000;
+}
+
+.tef-msg {
+    flex-basis: 100%;
+    font-size: 12px;
+}
+
+#tef-test-result {
+    flex-basis: auto;
+    margin-left: 8px;
+}
+
+.tef-msg-ok {
+    color: #1e7e34;
+}
+
+.tef-msg-err {
+    color: #b32d2e;
+}
+
+.tef-meta {
+    width: 100%;
+    margin-bottom: 8px;
+    border-collapse: collapse;
+}
+
+.tef-meta th {
+    width: 40%;
+    padding: 4px 4px 4px 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tef-meta td {
+    padding: 4px 0;
+    word-break: break-all;
+}
+
+.tef-filter {
+    margin: 12px 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.tef-check {
+    display: inline-block;
+    margin: 0 16px 6px 0;
+}
+
+.tef-pre {
+    max-width: 640px;
+    max-height: 240px;
+    overflow: auto;
+    margin: 6px 0 0;
+    padding: 8px;
+    background: #f6f7f7;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.tef-purge {
+    margin-top: 16px;
+}
+
+.column-tef_invoice {
+    width: 260px;
+}
+
+.tef-block {
+    display: block;
+    margin: 8px 0;
+    font-size: 13px;
+    word-break: break-word;
+}
+
+.tef-bulk-bar { margin: 12px 0 4px; }
+.tef-bulk-status { margin-left: 10px; font-weight: 600; }

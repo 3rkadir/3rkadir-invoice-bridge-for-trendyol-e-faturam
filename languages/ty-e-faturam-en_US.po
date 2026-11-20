@@ -1,0 +1,732 @@
+# TY E-Faturam English translation.
+msgid ""
+msgstr ""
+"Project-Id-Version: TY E-Faturam 1.2.0\n"
+"Report-Msgid-Bugs-To: 3rkadir@gmail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: ty-e-faturam\n"
+
+msgid "TY E-Faturam"
+msgstr "TY E-Faturam"
+
+msgid "Genel Ayarlar"
+msgstr "General Settings"
+
+msgid "Bekleyen Faturalar"
+msgstr "Pending Invoices"
+
+msgid "Gönderilmiş Faturalar"
+msgstr "Sent Invoices"
+
+msgid "Loglar"
+msgstr "Logs"
+
+msgid "İşleniyor…"
+msgstr "Processing…"
+
+msgid "İstek başarısız oldu. Lütfen tekrar deneyin."
+msgstr "The request failed. Please try again."
+
+msgid "Vergi No / TCKN"
+msgstr "Tax No / National ID"
+
+msgid "Vergi Dairesi"
+msgstr "Tax Office"
+
+msgid "Ayarlar"
+msgstr "Settings"
+
+msgid "Bu sayfaya erişim yetkiniz yok."
+msgstr "You do not have permission to access this page."
+
+msgid "Bu işlem için yetkiniz yok."
+msgstr "You do not have permission to perform this action."
+
+msgid "Bu sipariş için kayıtlı bir PDF bağlantısı yok."
+msgstr "There is no saved PDF link for this order."
+
+msgid "Fatura"
+msgstr "Invoice"
+
+msgid "Fatura Durumu"
+msgstr "Invoice Status"
+
+msgid "UUID"
+msgstr "UUID"
+
+msgid "Fatura Tipi"
+msgstr "Invoice Type"
+
+msgid "Oluşturulma Tarihi"
+msgstr "Created At"
+
+msgid "PDF Linki"
+msgstr "PDF Link"
+
+msgid "PDF İndir"
+msgstr "Download PDF"
+
+msgid "Taslak Özeti"
+msgstr "Draft Summary"
+
+#, php-format
+msgid "%1$s — %2$s TL, %3$d satır"
+msgstr "%1$s — %2$s TRY, %3$d lines"
+
+msgid "Hata"
+msgstr "Error"
+
+msgid "Onayla ve Gönder"
+msgstr "Approve and Send"
+
+msgid "Taslak silinecek. Emin misiniz?"
+msgstr "The draft will be deleted. Are you sure?"
+
+msgid "Taslağı Sil"
+msgstr "Delete Draft"
+
+msgid "Yeniden Gönder"
+msgstr "Resend"
+
+msgid "Fatura Oluştur"
+msgstr "Create Invoice"
+
+msgid "Durum Sorgula"
+msgstr "Check Status"
+
+msgid "Güvenlik doğrulaması başarısız. Sayfayı yenileyin."
+msgstr "Security check failed. Please refresh the page."
+
+msgid "Geçersiz istek."
+msgstr "Invalid request."
+
+msgid "Vergi No / TCKN 10 veya 11 haneli olmalıdır."
+msgstr "Tax No / National ID must be 10 or 11 digits."
+
+msgid "Erişim anahtarı alınamadı."
+msgstr "Could not obtain an access token."
+
+msgid "API e-posta veya şifre tanımlı değil."
+msgstr "API email or password is not set."
+
+#, php-format
+msgid "Giriş başarısız (%1$s): %2$s — E-posta/şifreyi ve Test/Canlı ortam seçimini kontrol edin; test ve canlı ortamın kullanıcıları farklı olabilir."
+msgstr "Sign-in failed (%1$s): %2$s — Check the email/password and the Test/Live environment selection; test and live environments may use different users."
+
+#, php-format
+msgid "Giriş başarılı ancak yanıt başlıklarında erişim anahtarı bulunamadı. Başlıklar: %s"
+msgstr "Sign-in succeeded but no access token was found in the response headers. Headers: %s"
+
+#, php-format
+msgid "Şirket VKN sorgusu başarısız: %s"
+msgstr "Company tax number lookup failed: %s"
+
+msgid "Company ID"
+msgstr "Company ID"
+
+msgid "User ID"
+msgstr "User ID"
+
+msgid "Şirket Adı"
+msgstr "Company Name"
+
+#, php-format
+msgid "Giriş başarılı (%s ortam). "
+msgstr "Sign-in successful (%s environment). "
+
+msgid "canlı"
+msgstr "live"
+
+msgid "test"
+msgstr "test"
+
+#, php-format
+msgid "Bulunan: %s. "
+msgstr "Found: %s. "
+
+msgid "Company ID ve User ID token içinde bulunamadı. "
+msgstr "Company ID and User ID were not found in the token. "
+
+#, php-format
+msgid "Token içeriği: %s. "
+msgstr "Token contents: %s. "
+
+msgid "Token JWT biçiminde değil. "
+msgstr "The token is not in JWT format. "
+
+msgid "Değerleri Elle Giriş bölümüne yazın (fatura için zorunludur). "
+msgstr "Enter the values in the Manual Entry section (required for invoices). "
+
+#, php-format
+msgid "UYARI: Elle girilen %1$s (%2$s) tokendaki değerden (%3$s) farklı; elle girilen değer önceliklidir. Tokendaki değeri kullanmak için elle alanı boşaltın. "
+msgstr "WARNING: The manually entered %1$s (%2$s) differs from the value in the token (%3$s); the manual value takes precedence. Clear the manual field to use the token value. "
+
+msgid "Şirket adı için Şirket VKN alanını doldurun. "
+msgstr "Fill in the Company Tax Number field to get the company name. "
+
+#, php-format
+msgid "İstek başarısız: %s"
+msgstr "Request failed: %s"
+
+msgid "e-Fatura mükellefi değil (e-Arşiv kesilir)."
+msgstr "Not an e-Invoice taxpayer (an e-Archive invoice will be issued)."
+
+msgid "e-Fatura mükellefi (e-Fatura kesilir)."
+msgstr "E-Invoice taxpayer (an e-Invoice will be issued)."
+
+msgid "Unvan"
+msgstr "Title"
+
+msgid "Alias"
+msgstr "Alias"
+
+msgid "Kayıt bulunamadı: e-Fatura mükellefi değil (e-Arşiv kesilir)."
+msgstr "Not found: not an e-Invoice taxpayer (an e-Archive invoice will be issued)."
+
+msgid "Fatura için vergi no veya TCKN"
+msgstr "Tax number or national ID for the invoice"
+
+msgid "Vergi No / TCKN alanı 10 veya 11 haneli rakamlardan oluşmalıdır."
+msgstr "Tax No / National ID must consist of 10 or 11 digits."
+
+msgid "Bu eklenti için PHP 8.1 veya üzeri gereklidir."
+msgstr "This plugin requires PHP 8.1 or higher."
+
+msgid "Gönderildi (işleniyor)"
+msgstr "Sent (processing)"
+
+msgid "Tamamlandı"
+msgstr "Completed"
+
+msgid "Başarısız"
+msgstr "Failed"
+
+msgid "Taslak (onay bekliyor)"
+msgstr "Draft (awaiting approval)"
+
+msgid "Fatura yok"
+msgstr "No invoice"
+
+msgid "e-Fatura"
+msgstr "e-Invoice"
+
+msgid "e-Arşiv"
+msgstr "e-Archive"
+
+msgid "Sipariş bulunamadı."
+msgstr "Order not found."
+
+msgid "Bu sipariş için fatura zaten oluşturulmuş. Durumu sorgulayabilirsiniz."
+msgstr "An invoice has already been created for this order. You can check its status."
+
+msgid "Bu sipariş için işlem zaten devam ediyor."
+msgstr "An operation for this order is already in progress."
+
+msgid "API e-posta ve şifre ayarlanmamış."
+msgstr "API email and password are not set."
+
+msgid "Company ID / User ID bulunamadı. Ayarlar sayfasındaki \"Elle Giriş\" bölümüne yazın."
+msgstr "Company ID / User ID not found. Enter them in the \"Manual Entry\" section on the Settings page."
+
+msgid "Siparişte faturalanacak satır bulunamadı."
+msgstr "No invoiceable lines were found in the order."
+
+msgid "Kurumsal sipariş için vergi numarası bulunamadı."
+msgstr "No tax number was found for this corporate order."
+
+msgid "Vergi numarası / TCKN geçersiz (10 veya 11 haneli olmalıdır)."
+msgstr "Tax number / national ID is invalid (must be 10 or 11 digits)."
+
+#, php-format
+msgid "Mükellef sorgusu başarısız: %s"
+msgstr "Taxpayer lookup failed: %s"
+
+msgid "Yanıtta fatura UUID değeri bulunamadı."
+msgstr "The invoice UUID was not found in the response."
+
+#, php-format
+msgid "TY E-Faturam: %1$s oluşturuldu. UUID: %2$s"
+msgstr "TY E-Faturam: %1$s created. UUID: %2$s"
+
+#, php-format
+msgid "%1$s oluşturuldu. UUID: %2$s"
+msgstr "%1$s created. UUID: %2$s"
+
+#, php-format
+msgid "TY E-Faturam: %s taslağı hazırlandı, onay bekliyor."
+msgstr "TY E-Faturam: %s draft prepared, awaiting approval."
+
+#, php-format
+msgid "%s taslağı kaydedildi. Göndermek için \"Onayla ve Gönder\" düğmesini kullanın."
+msgstr "%s draft saved. Use the \"Approve and Send\" button to send it."
+
+msgid "Onay bekleyen bir taslak bulunamadı."
+msgstr "No draft awaiting approval was found."
+
+msgid "Silinecek bir taslak bulunamadı."
+msgstr "No draft to delete was found."
+
+msgid "TY E-Faturam: Fatura taslağı silindi."
+msgstr "TY E-Faturam: Invoice draft deleted."
+
+msgid "Taslak silindi."
+msgstr "Draft deleted."
+
+msgid "Bu sipariş için sorgulanacak fatura UUID değeri yok."
+msgstr "There is no invoice UUID to check for this order."
+
+#, php-format
+msgid "Durum sorgulanamadı: %s"
+msgstr "Status could not be checked: %s"
+
+#, php-format
+msgid "Fatura işlenirken hata oluştu (durum kodu %s). Yeniden gönderebilirsiniz."
+msgstr "An error occurred while processing the invoice (status code %s). You can resend it."
+
+#, php-format
+msgid "TY E-Faturam: %1$s UUID: %2$s"
+msgstr "TY E-Faturam: %1$s UUID: %2$s"
+
+#, php-format
+msgid "TY E-Faturam: Fatura tamamlandı. UUID: %s"
+msgstr "TY E-Faturam: Invoice completed. UUID: %s"
+
+msgid "Fatura tamamlandı."
+msgstr "Invoice completed."
+
+#, php-format
+msgid "Fatura işleniyor. Durum: %s"
+msgstr "Invoice is being processed. Status: %s"
+
+#, php-format
+msgid "TY E-Faturam: Fatura oluşturulamadı. %s"
+msgstr "TY E-Faturam: Invoice could not be created. %s"
+
+msgid "Bu eklenti, fatura oluşturmak için sipariş verilerini (ad, soyad, firma, vergi numarası/TCKN, vergi dairesi, adres, telefon, e-posta ve sipariş kalemleri) TY E-Faturam API'sine gönderir. API yanıtları, hata ayıklama amacıyla sitenizin veritabanındaki log tablosunda 30 gün saklanır."
+msgstr "To create invoices, this plugin sends order data (first name, last name, company, tax number/national ID, tax office, address, phone, email and order items) to the TY E-Faturam API. API responses are kept for 30 days in the log table of your site's database for troubleshooting."
+
+msgid "TY E-Faturam — Loglar"
+msgstr "TY E-Faturam — Logs"
+
+msgid "Loglar temizlendi."
+msgstr "Logs cleared."
+
+msgid "Tümü"
+msgstr "All"
+
+msgid "Başarılı"
+msgstr "Successful"
+
+msgid "Sipariş No"
+msgstr "Order No"
+
+msgid "Filtrele"
+msgstr "Filter"
+
+msgid "Tarih"
+msgstr "Date"
+
+msgid "Sipariş ID"
+msgstr "Order ID"
+
+msgid "Endpoint"
+msgstr "Endpoint"
+
+msgid "HTTP Kodu"
+msgstr "HTTP Code"
+
+msgid "Response"
+msgstr "Response"
+
+msgid "Kayıt bulunamadı."
+msgstr "No records found."
+
+msgid "Görüntüle"
+msgstr "View"
+
+msgid "Tüm loglar silinecek. Emin misiniz?"
+msgstr "All logs will be deleted. Are you sure?"
+
+msgid "Tüm Logları Temizle"
+msgstr "Clear All Logs"
+
+msgid "Faturası oluşturulmamış veya hatalı siparişler"
+msgstr "Orders without an invoice or with errors"
+
+msgid "Sipariş"
+msgstr "Order"
+
+msgid "Müşteri"
+msgstr "Customer"
+
+msgid "Tutar"
+msgstr "Total"
+
+msgid "Bekleyen sipariş bulunmuyor."
+msgstr "There are no pending orders."
+
+msgid "Gönderilmiş, henüz tamamlanmamış faturalar"
+msgstr "Sent invoices that are not yet completed"
+
+msgid "Bu faturaların durumu saatlik olarak otomatik sorgulanır."
+msgstr "The status of these invoices is checked automatically every hour."
+
+msgid "Tip"
+msgstr "Type"
+
+msgid "GİB / Durum"
+msgstr "GIB / Status"
+
+msgid "İşlenmekte olan fatura yok."
+msgstr "There are no invoices being processed."
+
+msgid "Tüm durumlar"
+msgstr "All statuses"
+
+msgid "Fatura No"
+msgstr "Invoice No"
+
+msgid "Oluşturulma"
+msgstr "Created"
+
+msgid "Şirket UUID"
+msgstr "Company UUID"
+
+msgid "TY E-Faturam — Genel Ayarlar"
+msgstr "TY E-Faturam — General Settings"
+
+msgid "Dil"
+msgstr "Language"
+
+msgid "Otomatik (site diline göre)"
+msgstr "Automatic (follow site language)"
+
+msgid "Eklenti arayüzünün ve mesajlarının dili. Fatura içeriği (ürün adları, notlar) her zaman Türkçe gönderilir."
+msgstr "The language of the plugin interface and messages. Invoice content (product names, notes) is always sent in Turkish."
+
+msgid "API E-posta (Bireysel Kullanıcı)"
+msgstr "API Email (Individual User)"
+
+msgid "API Şifre"
+msgstr "API Password"
+
+msgid "Şifre şifrelenerek saklanır. Değiştirmek istemiyorsanız boş bırakın."
+msgstr "The password is stored encrypted. Leave blank if you do not want to change it."
+
+msgid "Ortam"
+msgstr "Environment"
+
+msgid "Test Ortamı"
+msgstr "Test Environment"
+
+msgid "Canlı Ortam"
+msgstr "Live Environment"
+
+msgid "Test: stage-apigateway.trendyolefaturam.com — Canlı: apigateway.trendyolecozum.com. Test ve canlı ortamın kullanıcıları farklı olabilir."
+msgstr "Test: stage-apigateway.trendyolefaturam.com — Live: apigateway.trendyolecozum.com. Test and live environments may use different users."
+
+msgid "Şirket VKN / TCKN"
+msgstr "Company Tax No / National ID"
+
+msgid "Şirket adı, bu numaranın mükellef sorgusundan (getTaxPayersByTaxId) otomatik alınır. Girişte kullanılmaz."
+msgstr "The company name is retrieved automatically from the taxpayer lookup (getTaxPayersByTaxId) for this number. It is not used for sign-in."
+
+msgid "Otomatik Alınan Şirket Bilgileri"
+msgstr "Automatically Retrieved Company Information"
+
+msgid "henüz alınmadı"
+msgstr "not retrieved yet"
+
+msgid "Bağlantıyı Test Et ve Şirket Bilgilerini Getir"
+msgstr "Test Connection and Fetch Company Information"
+
+msgid "Önce ayarları kaydedin. Giriş: POST /api/auth/signin; Company ID ve User ID token (JWT) içinden okunur."
+msgstr "Save the settings first. Sign-in: POST /api/auth/signin; Company ID and User ID are read from the token (JWT)."
+
+msgid "Elle Giriş (isteğe bağlı)"
+msgstr "Manual Entry (optional)"
+
+msgid "Giriş (signIn) yanıtı bu değerleri döndürmüyorsa buraya yazın. Company ID ve User ID fatura için zorunludur; dolu alanlar otomatik değerlerin yerine kullanılır."
+msgstr "Enter them here if the sign-in (signIn) response does not return these values. Company ID and User ID are required for invoices; filled fields take precedence over automatic values."
+
+msgid "Taslak Modu"
+msgstr "Draft Mode"
+
+msgid "Faturaları doğrudan kesme; önce taslak olarak kaydet, \"Onayla ve Gönder\" ile göndereyim"
+msgstr "Do not issue invoices directly; save them as drafts first and I will send them with \"Approve and Send\""
+
+msgid "Açıkken sipariş verileri hazırlanır ve doğrulanır ancak TY E-Faturam'a fatura gönderilmez. Taslaklar \"Bekleyen Faturalar\" sayfasında ve sipariş ekranında görünür. Otomatik fatura da bu moda uyar."
+msgstr "When enabled, order data is prepared and validated but no invoice is sent to TY E-Faturam. Drafts appear on the \"Pending Invoices\" page and on the order screen. Automatic invoicing also follows this mode."
+
+msgid "Otomatik Fatura Oluştur"
+msgstr "Create Invoice Automatically"
+
+msgid "Sipariş aşağıdaki durumlardan birine geçince fatura oluştur"
+msgstr "Create an invoice when the order moves to one of the statuses below"
+
+msgid "Sipariş Durumu Seçimi"
+msgstr "Order Status Selection"
+
+msgid "e-Fatura Ön Eki"
+msgstr "e-Invoice Prefix"
+
+msgid "Boş bırakın; yalnızca portalda tanımlı 3 harfli seri varsa yazın."
+msgstr "Leave empty; only enter a 3-letter series if one is defined in the portal."
+
+msgid "e-Arşiv Ön Eki"
+msgstr "e-Archive Prefix"
+
+msgid "Ödeme Sayfası Alanları"
+msgstr "Checkout Fields"
+
+msgid "Klasik ödeme sayfasına Bireysel / Kurumsal seçimi ile Vergi No / TCKN ve Vergi Dairesi alanlarını ekle"
+msgstr "Add Tax No / National ID and Tax Office fields to the classic checkout page"
+
+msgid "Vergi No Meta Anahtarı"
+msgstr "Tax No Meta Key"
+
+msgid "Vergi Dairesi Meta Anahtarı"
+msgstr "Tax Office Meta Key"
+
+msgid "KDV 0 Muafiyet Kodu / Sebebi"
+msgstr "Zero-VAT Exemption Code / Reason"
+
+msgid "KDV tutarı sıfır olan satırlar için API bu bilgiyi zorunlu tutar (varsayılan: 351 - İstisna Olmayan Diğer). Sıfır KDV beklemiyorsanız mağaza vergi ayarlarınızı kontrol edin."
+msgstr "The API requires this information for lines whose VAT amount is zero (default: 351 - Other Non-Exemption). If you do not expect zero VAT, check your store tax settings."
+
+msgid "Bireysel Müşteri Varsayılan TCKN"
+msgstr "Default National ID for Individual Customers"
+
+msgid "Vergi numarası girmeyen bireysel müşteriler için e-Arşiv faturasında kullanılır."
+msgstr "Used on e-Archive invoices for individual customers who do not enter a tax number."
+
+msgid "Kaldırırken Veriyi Sil"
+msgstr "Delete Data on Uninstall"
+
+msgid "Eklenti silindiğinde tablolar ve ayarlar da silinsin"
+msgstr "Also delete tables and settings when the plugin is deleted"
+
+msgid "Gelişmiş: Ek İstek Alanları (JSON)"
+msgstr "Advanced: Extra Request Fields (JSON)"
+
+msgid "Fatura isteğine eklenecek ek alanlar (ör. API dokümanındaki isteğe bağlı bir alan). Yalnızca geçerli bir JSON nesnesi kabul edilir; mevcut alanların üzerine yazar."
+msgstr "Extra fields to add to the invoice request (e.g. an optional field from the API documentation). Only a valid JSON object is accepted; it overwrites existing fields."
+
+msgid "Gelişmiş: Uç Nokta Yolları"
+msgstr "Advanced: Endpoint Paths"
+
+msgid "Yolları göster / değiştir"
+msgstr "Show / edit paths"
+
+msgid "Boş bırakılırsa varsayılan yol kullanılır. Dokümandaki yolu olduğu gibi yazabilirsiniz; {taxId} / :taxId ve {uuid} / :invoiceUuid yer tutucuları desteklenir."
+msgstr "If left empty, the default path is used. You can enter the path exactly as in the documentation; {taxId} / :taxId and {uuid} / :invoiceUuid placeholders are supported."
+
+msgid "Giriş (signIn)"
+msgstr "Sign-in (signIn)"
+
+msgid "Mükellef sorgusu (getTaxPayersByTaxId)"
+msgstr "Taxpayer lookup (getTaxPayersByTaxId)"
+
+msgid "e-Arşiv oluştur (createEArchive)"
+msgstr "Create e-Archive (createEArchive)"
+
+msgid "e-Fatura oluştur (createOutgoingEInvoice)"
+msgstr "Create e-Invoice (createOutgoingEInvoice)"
+
+msgid "e-Arşiv durum"
+msgstr "e-Archive status"
+
+msgid "e-Fatura durum"
+msgstr "e-Invoice status"
+
+msgid "Geliştirici: Kadir Er — Destek: 3rkadir@gmail.com"
+msgstr "Developer: Kadir Er — Support: 3rkadir@gmail.com"
+
+msgid "Mükellef Sorgusu Testi"
+msgstr "Taxpayer Lookup Test"
+
+msgid "Bir VKN / TCKN için gerçek API yanıtını görün. Yol veya yanıt biçimi farklıysa burada hemen anlaşılır."
+msgstr "See the real API response for a tax number / national ID. If the path or response format differs, it becomes clear here right away."
+
+msgid "VKN / TCKN"
+msgstr "Tax No / National ID"
+
+msgid "Sorgula"
+msgstr "Look up"
+
+msgid "TY E-Faturam için PHP 8.1 veya üzeri gereklidir."
+msgstr "TY E-Faturam requires PHP 8.1 or higher."
+
+msgid "TY E-Faturam çalışmak için e-ticaret altyapı eklentisinin etkin olmasını gerektirir."
+msgstr "TY E-Faturam requires the e-commerce plugin to be active in order to work."
+
+msgid "Fatura (PDF)"
+msgstr "Invoice (PDF)"
+
+msgid "Faturayı indir (PDF)"
+msgstr "Download invoice (PDF)"
+
+msgid "Geçersiz veya süresi dolmuş fatura bağlantısı."
+msgstr "Invalid or expired invoice link."
+
+msgid "Bu sipariş için fatura henüz hazır değil."
+msgstr "The invoice for this order is not ready yet."
+
+msgid "Fatura PDF dosyası şu anda alınamadı. Lütfen daha sonra tekrar deneyin."
+msgstr "The invoice PDF could not be retrieved right now. Please try again later."
+
+#, php-format
+msgid "[%1$s] #%2$s numaralı siparişinizin faturası"
+msgstr "[%1$s] Invoice for your order #%2$s"
+
+msgid "Faturanız hazır"
+msgstr "Your invoice is ready"
+
+#, php-format
+msgid "Merhaba %s,"
+msgstr "Hello %s,"
+
+msgid "Merhaba,"
+msgstr "Hello,"
+
+#, php-format
+msgid "#%s numaralı siparişinizin faturası hazırlandı."
+msgstr "The invoice for your order #%s is ready."
+
+msgid "Faturanızı bu e-postaya PDF olarak eklenmiş şekilde bulabilirsiniz."
+msgstr "You will find your invoice attached to this email as a PDF."
+
+#, php-format
+msgid "TY E-Faturam: Fatura e-postası gönderildi (%s)."
+msgstr "TY E-Faturam: Invoice email sent (%s)."
+
+#, php-format
+msgid "TY E-Faturam: Fatura e-postası gönderilemedi (%s)."
+msgstr "TY E-Faturam: Invoice email could not be sent (%s)."
+
+msgid "Müşteriye E-posta"
+msgstr "Customer Email"
+
+#, php-format
+msgid "Gönderildi: %s"
+msgstr "Sent: %s"
+
+msgid "Gönderilmedi"
+msgstr "Not sent"
+
+msgid "Tekrar gönder"
+msgstr "Send again"
+
+msgid "Gönder"
+msgstr "Send"
+
+msgid "Müşteri Fatura Erişimi"
+msgstr "Customer Invoice Access"
+
+msgid "\"Hesabım > Siparişler\" ekranında fatura PDF indirme bağlantısı göster"
+msgstr "Show an invoice PDF download link under \"My Account > Orders\""
+
+msgid "Fatura E-postası"
+msgstr "Invoice Email"
+
+msgid "Gönderme"
+msgstr "Do not send"
+
+msgid "Yalnızca indirme bağlantısı gönder"
+msgstr "Send a download link only"
+
+msgid "PDF ekle ve indirme bağlantısı gönder"
+msgstr "Attach the PDF and include a download link"
+
+msgid "Fatura tamamlandığında müşteriye otomatik e-posta gönderilir. Sipariş ekranından elle de gönderebilirsiniz."
+msgstr "An email is sent to the customer automatically when the invoice is completed. You can also send it manually from the order screen."
+
+msgid "Fatura Türü"
+msgstr "Invoice Type"
+
+msgid "Bireysel"
+msgstr "Individual"
+
+msgid "Kurumsal"
+msgstr "Corporate"
+
+msgid "TC Kimlik No"
+msgstr "National ID (TCKN)"
+
+msgid "Fatura için TC kimlik no"
+msgstr "National ID for the invoice"
+
+msgid "Bireysel fatura için TC Kimlik No 11 haneli rakamlardan oluşmalıdır."
+msgstr "For an individual invoice, the National ID must be 11 digits."
+
+msgid "Kurumsal fatura için Vergi No / TCKN zorunludur."
+msgstr "Tax No / National ID is required for a corporate invoice."
+
+msgid "Kurumsal fatura için Vergi Dairesi zorunludur."
+msgstr "Tax Office is required for a corporate invoice."
+
+msgid "Fatura Bilgileri"
+msgstr "Invoice Details"
+
+msgid "Bireysel / Kurumsal Anahtar Renkleri"
+msgstr "Individual / Corporate Toggle Colors"
+
+msgid "Seçili bölüm rengi"
+msgstr "Selected side color"
+
+msgid "Seçili olmayan bölüm rengi"
+msgstr "Unselected side color"
+
+msgid "Önizleme"
+msgstr "Preview"
+
+msgid "Ödeme sayfasındaki Bireysel / Kurumsal anahtarının renkleri. Yazı renkleri okunabilirlik için otomatik seçilir."
+msgstr "Colors of the Individual / Corporate toggle on the checkout page. Text colors are chosen automatically for readability."
+
+msgid "TY E-Faturam: Fatura oluştur"
+msgstr "TY E-Faturam: Create invoices"
+
+msgid "TY E-Faturam: Taslakları onayla ve gönder"
+msgstr "TY E-Faturam: Approve and send drafts"
+
+msgid "TY E-Faturam: Fatura durumunu sorgula"
+msgstr "TY E-Faturam: Check invoice status"
+
+#, php-format
+msgid "TY E-Faturam toplu işlem: %1$d başarılı, %2$d hatalı, %3$d atlandı."
+msgstr "TY E-Faturam bulk action: %1$d succeeded, %2$d failed, %3$d skipped."
+
+#, php-format
+msgid "Tek seferde en fazla %2$d sipariş işlenir; %1$d sipariş işlenmedi. Lütfen kalanları tekrar seçin."
+msgstr "At most %2$d orders are processed at a time; %1$d orders were not processed. Please select the remaining ones again."
+
+msgid "Seçilen Siparişlere Toplu Fatura Oluştur"
+msgstr "Bulk Create Invoices for Selected Orders"
+
+msgid "Taslak modu açıksa taslak kaydedilir; taslak durumundaki siparişler onaylanıp gönderilir; hatalı olanlar yeniden denenir. Siparişler sırayla işlenir."
+msgstr "If draft mode is on, drafts are saved; orders with a draft are approved and sent; failed ones are retried. Orders are processed one by one."
+
+msgid "Tümünü seç"
+msgstr "Select all"
+
+#, php-format
+msgid "İşleniyor: %1$s / %2$s"
+msgstr "Processing: %1$s / %2$s"
+
+#, php-format
+msgid "Tamamlandı: %1$s başarılı, %2$s hatalı."
+msgstr "Done: %1$s succeeded, %2$s failed."
+
+msgid "Önce en az bir sipariş seçin."
+msgstr "Select at least one order first."
+
+#, php-format
+msgid "%s sipariş için işlem yapılacak. Devam edilsin mi?"
+msgstr "The action will run for %s orders. Continue?"
+
+msgid "Seçilmedi"
+msgstr "Not selected"

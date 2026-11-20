@@ -1,0 +1,730 @@
+# TY E-Faturam translation template. Source language: Turkish.
+msgid ""
+msgstr ""
+"Project-Id-Version: TY E-Faturam 1.2.0\n"
+"Report-Msgid-Bugs-To: 3rkadir@gmail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: ty-e-faturam\n"
+
+msgid "TY E-Faturam"
+msgstr ""
+
+msgid "Genel Ayarlar"
+msgstr ""
+
+msgid "Bekleyen Faturalar"
+msgstr ""
+
+msgid "Gönderilmiş Faturalar"
+msgstr ""
+
+msgid "Loglar"
+msgstr ""
+
+msgid "İşleniyor…"
+msgstr ""
+
+msgid "İstek başarısız oldu. Lütfen tekrar deneyin."
+msgstr ""
+
+msgid "Vergi No / TCKN"
+msgstr ""
+
+msgid "Vergi Dairesi"
+msgstr ""
+
+msgid "Ayarlar"
+msgstr ""
+
+msgid "Bu sayfaya erişim yetkiniz yok."
+msgstr ""
+
+msgid "Bu işlem için yetkiniz yok."
+msgstr ""
+
+msgid "Bu sipariş için kayıtlı bir PDF bağlantısı yok."
+msgstr ""
+
+msgid "Fatura"
+msgstr ""
+
+msgid "Fatura Durumu"
+msgstr ""
+
+msgid "UUID"
+msgstr ""
+
+msgid "Fatura Tipi"
+msgstr ""
+
+msgid "Oluşturulma Tarihi"
+msgstr ""
+
+msgid "PDF Linki"
+msgstr ""
+
+msgid "PDF İndir"
+msgstr ""
+
+msgid "Taslak Özeti"
+msgstr ""
+
+#, php-format
+msgid "%1$s — %2$s TL, %3$d satır"
+msgstr ""
+
+msgid "Hata"
+msgstr ""
+
+msgid "Onayla ve Gönder"
+msgstr ""
+
+msgid "Taslak silinecek. Emin misiniz?"
+msgstr ""
+
+msgid "Taslağı Sil"
+msgstr ""
+
+msgid "Yeniden Gönder"
+msgstr ""
+
+msgid "Fatura Oluştur"
+msgstr ""
+
+msgid "Durum Sorgula"
+msgstr ""
+
+msgid "Güvenlik doğrulaması başarısız. Sayfayı yenileyin."
+msgstr ""
+
+msgid "Geçersiz istek."
+msgstr ""
+
+msgid "Vergi No / TCKN 10 veya 11 haneli olmalıdır."
+msgstr ""
+
+msgid "Erişim anahtarı alınamadı."
+msgstr ""
+
+msgid "API e-posta veya şifre tanımlı değil."
+msgstr ""
+
+#, php-format
+msgid "Giriş başarısız (%1$s): %2$s — E-posta/şifreyi ve Test/Canlı ortam seçimini kontrol edin; test ve canlı ortamın kullanıcıları farklı olabilir."
+msgstr ""
+
+#, php-format
+msgid "Giriş başarılı ancak yanıt başlıklarında erişim anahtarı bulunamadı. Başlıklar: %s"
+msgstr ""
+
+#, php-format
+msgid "Şirket VKN sorgusu başarısız: %s"
+msgstr ""
+
+msgid "Company ID"
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Şirket Adı"
+msgstr ""
+
+#, php-format
+msgid "Giriş başarılı (%s ortam). "
+msgstr ""
+
+msgid "canlı"
+msgstr ""
+
+msgid "test"
+msgstr ""
+
+#, php-format
+msgid "Bulunan: %s. "
+msgstr ""
+
+msgid "Company ID ve User ID token içinde bulunamadı. "
+msgstr ""
+
+#, php-format
+msgid "Token içeriği: %s. "
+msgstr ""
+
+msgid "Token JWT biçiminde değil. "
+msgstr ""
+
+msgid "Değerleri Elle Giriş bölümüne yazın (fatura için zorunludur). "
+msgstr ""
+
+#, php-format
+msgid "UYARI: Elle girilen %1$s (%2$s) tokendaki değerden (%3$s) farklı; elle girilen değer önceliklidir. Tokendaki değeri kullanmak için elle alanı boşaltın. "
+msgstr ""
+
+msgid "Şirket adı için Şirket VKN alanını doldurun. "
+msgstr ""
+
+#, php-format
+msgid "İstek başarısız: %s"
+msgstr ""
+
+msgid "e-Fatura mükellefi değil (e-Arşiv kesilir)."
+msgstr ""
+
+msgid "e-Fatura mükellefi (e-Fatura kesilir)."
+msgstr ""
+
+msgid "Unvan"
+msgstr ""
+
+msgid "Alias"
+msgstr ""
+
+msgid "Kayıt bulunamadı: e-Fatura mükellefi değil (e-Arşiv kesilir)."
+msgstr ""
+
+msgid "Fatura için vergi no veya TCKN"
+msgstr ""
+
+msgid "Vergi No / TCKN alanı 10 veya 11 haneli rakamlardan oluşmalıdır."
+msgstr ""
+
+msgid "Bu eklenti için PHP 8.1 veya üzeri gereklidir."
+msgstr ""
+
+msgid "Gönderildi (işleniyor)"
+msgstr ""
+
+msgid "Tamamlandı"
+msgstr ""
+
+msgid "Başarısız"
+msgstr ""
+
+msgid "Taslak (onay bekliyor)"
+msgstr ""
+
+msgid "Fatura yok"
+msgstr ""
+
+msgid "e-Fatura"
+msgstr ""
+
+msgid "e-Arşiv"
+msgstr ""
+
+msgid "Sipariş bulunamadı."
+msgstr ""
+
+msgid "Bu sipariş için fatura zaten oluşturulmuş. Durumu sorgulayabilirsiniz."
+msgstr ""
+
+msgid "Bu sipariş için işlem zaten devam ediyor."
+msgstr ""
+
+msgid "API e-posta ve şifre ayarlanmamış."
+msgstr ""
+
+msgid "Company ID / User ID bulunamadı. Ayarlar sayfasındaki \"Elle Giriş\" bölümüne yazın."
+msgstr ""
+
+msgid "Siparişte faturalanacak satır bulunamadı."
+msgstr ""
+
+msgid "Kurumsal sipariş için vergi numarası bulunamadı."
+msgstr ""
+
+msgid "Vergi numarası / TCKN geçersiz (10 veya 11 haneli olmalıdır)."
+msgstr ""
+
+#, php-format
+msgid "Mükellef sorgusu başarısız: %s"
+msgstr ""
+
+msgid "Yanıtta fatura UUID değeri bulunamadı."
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam: %1$s oluşturuldu. UUID: %2$s"
+msgstr ""
+
+#, php-format
+msgid "%1$s oluşturuldu. UUID: %2$s"
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam: %s taslağı hazırlandı, onay bekliyor."
+msgstr ""
+
+#, php-format
+msgid "%s taslağı kaydedildi. Göndermek için \"Onayla ve Gönder\" düğmesini kullanın."
+msgstr ""
+
+msgid "Onay bekleyen bir taslak bulunamadı."
+msgstr ""
+
+msgid "Silinecek bir taslak bulunamadı."
+msgstr ""
+
+msgid "TY E-Faturam: Fatura taslağı silindi."
+msgstr ""
+
+msgid "Taslak silindi."
+msgstr ""
+
+msgid "Bu sipariş için sorgulanacak fatura UUID değeri yok."
+msgstr ""
+
+#, php-format
+msgid "Durum sorgulanamadı: %s"
+msgstr ""
+
+#, php-format
+msgid "Fatura işlenirken hata oluştu (durum kodu %s). Yeniden gönderebilirsiniz."
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam: %1$s UUID: %2$s"
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam: Fatura tamamlandı. UUID: %s"
+msgstr ""
+
+msgid "Fatura tamamlandı."
+msgstr ""
+
+#, php-format
+msgid "Fatura işleniyor. Durum: %s"
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam: Fatura oluşturulamadı. %s"
+msgstr ""
+
+msgid "Bu eklenti, fatura oluşturmak için sipariş verilerini (ad, soyad, firma, vergi numarası/TCKN, vergi dairesi, adres, telefon, e-posta ve sipariş kalemleri) TY E-Faturam API'sine gönderir. API yanıtları, hata ayıklama amacıyla sitenizin veritabanındaki log tablosunda 30 gün saklanır."
+msgstr ""
+
+msgid "TY E-Faturam — Loglar"
+msgstr ""
+
+msgid "Loglar temizlendi."
+msgstr ""
+
+msgid "Tümü"
+msgstr ""
+
+msgid "Başarılı"
+msgstr ""
+
+msgid "Sipariş No"
+msgstr ""
+
+msgid "Filtrele"
+msgstr ""
+
+msgid "Tarih"
+msgstr ""
+
+msgid "Sipariş ID"
+msgstr ""
+
+msgid "Endpoint"
+msgstr ""
+
+msgid "HTTP Kodu"
+msgstr ""
+
+msgid "Response"
+msgstr ""
+
+msgid "Kayıt bulunamadı."
+msgstr ""
+
+msgid "Görüntüle"
+msgstr ""
+
+msgid "Tüm loglar silinecek. Emin misiniz?"
+msgstr ""
+
+msgid "Tüm Logları Temizle"
+msgstr ""
+
+msgid "Faturası oluşturulmamış veya hatalı siparişler"
+msgstr ""
+
+msgid "Sipariş"
+msgstr ""
+
+msgid "Müşteri"
+msgstr ""
+
+msgid "Tutar"
+msgstr ""
+
+msgid "Bekleyen sipariş bulunmuyor."
+msgstr ""
+
+msgid "Gönderilmiş, henüz tamamlanmamış faturalar"
+msgstr ""
+
+msgid "Bu faturaların durumu saatlik olarak otomatik sorgulanır."
+msgstr ""
+
+msgid "Tip"
+msgstr ""
+
+msgid "GİB / Durum"
+msgstr ""
+
+msgid "İşlenmekte olan fatura yok."
+msgstr ""
+
+msgid "Tüm durumlar"
+msgstr ""
+
+msgid "Fatura No"
+msgstr ""
+
+msgid "Oluşturulma"
+msgstr ""
+
+msgid "Şirket UUID"
+msgstr ""
+
+msgid "TY E-Faturam — Genel Ayarlar"
+msgstr ""
+
+msgid "Dil"
+msgstr ""
+
+msgid "Otomatik (site diline göre)"
+msgstr ""
+
+msgid "Eklenti arayüzünün ve mesajlarının dili. Fatura içeriği (ürün adları, notlar) her zaman Türkçe gönderilir."
+msgstr ""
+
+msgid "API E-posta (Bireysel Kullanıcı)"
+msgstr ""
+
+msgid "API Şifre"
+msgstr ""
+
+msgid "Şifre şifrelenerek saklanır. Değiştirmek istemiyorsanız boş bırakın."
+msgstr ""
+
+msgid "Ortam"
+msgstr ""
+
+msgid "Test Ortamı"
+msgstr ""
+
+msgid "Canlı Ortam"
+msgstr ""
+
+msgid "Test: stage-apigateway.trendyolefaturam.com — Canlı: apigateway.trendyolecozum.com. Test ve canlı ortamın kullanıcıları farklı olabilir."
+msgstr ""
+
+msgid "Şirket VKN / TCKN"
+msgstr ""
+
+msgid "Şirket adı, bu numaranın mükellef sorgusundan (getTaxPayersByTaxId) otomatik alınır. Girişte kullanılmaz."
+msgstr ""
+
+msgid "Otomatik Alınan Şirket Bilgileri"
+msgstr ""
+
+msgid "henüz alınmadı"
+msgstr ""
+
+msgid "Bağlantıyı Test Et ve Şirket Bilgilerini Getir"
+msgstr ""
+
+msgid "Önce ayarları kaydedin. Giriş: POST /api/auth/signin; Company ID ve User ID token (JWT) içinden okunur."
+msgstr ""
+
+msgid "Elle Giriş (isteğe bağlı)"
+msgstr ""
+
+msgid "Giriş (signIn) yanıtı bu değerleri döndürmüyorsa buraya yazın. Company ID ve User ID fatura için zorunludur; dolu alanlar otomatik değerlerin yerine kullanılır."
+msgstr ""
+
+msgid "Taslak Modu"
+msgstr ""
+
+msgid "Faturaları doğrudan kesme; önce taslak olarak kaydet, \"Onayla ve Gönder\" ile göndereyim"
+msgstr ""
+
+msgid "Açıkken sipariş verileri hazırlanır ve doğrulanır ancak TY E-Faturam'a fatura gönderilmez. Taslaklar \"Bekleyen Faturalar\" sayfasında ve sipariş ekranında görünür. Otomatik fatura da bu moda uyar."
+msgstr ""
+
+msgid "Otomatik Fatura Oluştur"
+msgstr ""
+
+msgid "Sipariş aşağıdaki durumlardan birine geçince fatura oluştur"
+msgstr ""
+
+msgid "Sipariş Durumu Seçimi"
+msgstr ""
+
+msgid "e-Fatura Ön Eki"
+msgstr ""
+
+msgid "Boş bırakın; yalnızca portalda tanımlı 3 harfli seri varsa yazın."
+msgstr ""
+
+msgid "e-Arşiv Ön Eki"
+msgstr ""
+
+msgid "Ödeme Sayfası Alanları"
+msgstr ""
+
+msgid "Klasik ödeme sayfasına Bireysel / Kurumsal seçimi ile Vergi No / TCKN ve Vergi Dairesi alanlarını ekle"
+msgstr ""
+
+msgid "Vergi No Meta Anahtarı"
+msgstr ""
+
+msgid "Vergi Dairesi Meta Anahtarı"
+msgstr ""
+
+msgid "KDV 0 Muafiyet Kodu / Sebebi"
+msgstr ""
+
+msgid "KDV tutarı sıfır olan satırlar için API bu bilgiyi zorunlu tutar (varsayılan: 351 - İstisna Olmayan Diğer). Sıfır KDV beklemiyorsanız mağaza vergi ayarlarınızı kontrol edin."
+msgstr ""
+
+msgid "Bireysel Müşteri Varsayılan TCKN"
+msgstr ""
+
+msgid "Vergi numarası girmeyen bireysel müşteriler için e-Arşiv faturasında kullanılır."
+msgstr ""
+
+msgid "Kaldırırken Veriyi Sil"
+msgstr ""
+
+msgid "Eklenti silindiğinde tablolar ve ayarlar da silinsin"
+msgstr ""
+
+msgid "Gelişmiş: Ek İstek Alanları (JSON)"
+msgstr ""
+
+msgid "Fatura isteğine eklenecek ek alanlar (ör. API dokümanındaki isteğe bağlı bir alan). Yalnızca geçerli bir JSON nesnesi kabul edilir; mevcut alanların üzerine yazar."
+msgstr ""
+
+msgid "Gelişmiş: Uç Nokta Yolları"
+msgstr ""
+
+msgid "Yolları göster / değiştir"
+msgstr ""
+
+msgid "Boş bırakılırsa varsayılan yol kullanılır. Dokümandaki yolu olduğu gibi yazabilirsiniz; {taxId} / :taxId ve {uuid} / :invoiceUuid yer tutucuları desteklenir."
+msgstr ""
+
+msgid "Giriş (signIn)"
+msgstr ""
+
+msgid "Mükellef sorgusu (getTaxPayersByTaxId)"
+msgstr ""
+
+msgid "e-Arşiv oluştur (createEArchive)"
+msgstr ""
+
+msgid "e-Fatura oluştur (createOutgoingEInvoice)"
+msgstr ""
+
+msgid "e-Arşiv durum"
+msgstr ""
+
+msgid "e-Fatura durum"
+msgstr ""
+
+msgid "Geliştirici: Kadir Er — Destek: 3rkadir@gmail.com"
+msgstr ""
+
+msgid "Mükellef Sorgusu Testi"
+msgstr ""
+
+msgid "Bir VKN / TCKN için gerçek API yanıtını görün. Yol veya yanıt biçimi farklıysa burada hemen anlaşılır."
+msgstr ""
+
+msgid "VKN / TCKN"
+msgstr ""
+
+msgid "Sorgula"
+msgstr ""
+
+msgid "TY E-Faturam için PHP 8.1 veya üzeri gereklidir."
+msgstr ""
+
+msgid "TY E-Faturam çalışmak için e-ticaret altyapı eklentisinin etkin olmasını gerektirir."
+msgstr ""
+
+msgid "Fatura (PDF)"
+msgstr ""
+
+msgid "Faturayı indir (PDF)"
+msgstr ""
+
+msgid "Geçersiz veya süresi dolmuş fatura bağlantısı."
+msgstr ""
+
+msgid "Bu sipariş için fatura henüz hazır değil."
+msgstr ""
+
+msgid "Fatura PDF dosyası şu anda alınamadı. Lütfen daha sonra tekrar deneyin."
+msgstr ""
+
+#, php-format
+msgid "[%1$s] #%2$s numaralı siparişinizin faturası"
+msgstr ""
+
+msgid "Faturanız hazır"
+msgstr ""
+
+#, php-format
+msgid "Merhaba %s,"
+msgstr ""
+
+msgid "Merhaba,"
+msgstr ""
+
+#, php-format
+msgid "#%s numaralı siparişinizin faturası hazırlandı."
+msgstr ""
+
+msgid "Faturanızı bu e-postaya PDF olarak eklenmiş şekilde bulabilirsiniz."
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam: Fatura e-postası gönderildi (%s)."
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam: Fatura e-postası gönderilemedi (%s)."
+msgstr ""
+
+msgid "Müşteriye E-posta"
+msgstr ""
+
+#, php-format
+msgid "Gönderildi: %s"
+msgstr ""
+
+msgid "Gönderilmedi"
+msgstr ""
+
+msgid "Tekrar gönder"
+msgstr ""
+
+msgid "Gönder"
+msgstr ""
+
+msgid "Müşteri Fatura Erişimi"
+msgstr ""
+
+msgid "\"Hesabım > Siparişler\" ekranında fatura PDF indirme bağlantısı göster"
+msgstr ""
+
+msgid "Fatura E-postası"
+msgstr ""
+
+msgid "Gönderme"
+msgstr ""
+
+msgid "Yalnızca indirme bağlantısı gönder"
+msgstr ""
+
+msgid "PDF ekle ve indirme bağlantısı gönder"
+msgstr ""
+
+msgid "Fatura tamamlandığında müşteriye otomatik e-posta gönderilir. Sipariş ekranından elle de gönderebilirsiniz."
+msgstr ""
+
+msgid "Fatura Türü"
+msgstr ""
+
+msgid "Bireysel"
+msgstr ""
+
+msgid "Kurumsal"
+msgstr ""
+
+msgid "TC Kimlik No"
+msgstr ""
+
+msgid "Fatura için TC kimlik no"
+msgstr ""
+
+msgid "Bireysel fatura için TC Kimlik No 11 haneli rakamlardan oluşmalıdır."
+msgstr ""
+
+msgid "Kurumsal fatura için Vergi No / TCKN zorunludur."
+msgstr ""
+
+msgid "Kurumsal fatura için Vergi Dairesi zorunludur."
+msgstr ""
+
+msgid "Fatura Bilgileri"
+msgstr ""
+
+msgid "Bireysel / Kurumsal Anahtar Renkleri"
+msgstr ""
+
+msgid "Seçili bölüm rengi"
+msgstr ""
+
+msgid "Seçili olmayan bölüm rengi"
+msgstr ""
+
+msgid "Önizleme"
+msgstr ""
+
+msgid "Ödeme sayfasındaki Bireysel / Kurumsal anahtarının renkleri. Yazı renkleri okunabilirlik için otomatik seçilir."
+msgstr ""
+
+msgid "TY E-Faturam: Fatura oluştur"
+msgstr ""
+
+msgid "TY E-Faturam: Taslakları onayla ve gönder"
+msgstr ""
+
+msgid "TY E-Faturam: Fatura durumunu sorgula"
+msgstr ""
+
+#, php-format
+msgid "TY E-Faturam toplu işlem: %1$d başarılı, %2$d hatalı, %3$d atlandı."
+msgstr ""
+
+#, php-format
+msgid "Tek seferde en fazla %2$d sipariş işlenir; %1$d sipariş işlenmedi. Lütfen kalanları tekrar seçin."
+msgstr ""
+
+msgid "Seçilen Siparişlere Toplu Fatura Oluştur"
+msgstr ""
+
+msgid "Taslak modu açıksa taslak kaydedilir; taslak durumundaki siparişler onaylanıp gönderilir; hatalı olanlar yeniden denenir. Siparişler sırayla işlenir."
+msgstr ""
+
+msgid "Tümünü seç"
+msgstr ""
+
+#, php-format
+msgid "İşleniyor: %1$s / %2$s"
+msgstr ""
+
+#, php-format
+msgid "Tamamlandı: %1$s başarılı, %2$s hatalı."
+msgstr ""
+
+msgid "Önce en az bir sipariş seçin."
+msgstr ""
+
+#, php-format
+msgid "%s sipariş için işlem yapılacak. Devam edilsin mi?"
+msgstr ""
+
+msgid "Seçilmedi"
+msgstr ""
