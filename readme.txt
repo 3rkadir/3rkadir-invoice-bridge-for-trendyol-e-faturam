@@ -1,5 +1,5 @@
 === TY E-Faturam ===
-Contributors: kadirer
+Contributors: 3rkadir
 Tags: e-invoice, e-archive, invoice, turkey, orders
 Requires at least: 6.5
 Tested up to: 7.1
