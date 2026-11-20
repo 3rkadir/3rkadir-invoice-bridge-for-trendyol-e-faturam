@@ -4,14 +4,24 @@ Tags: e-invoice, e-archive, invoice, turkey, orders
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.4.3
+Stable tag: 1.4.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Creates e-Invoices / e-Archive invoices from store orders using the TY E-Faturam API, with a draft mode that asks for approval before sending.
+TY E-Faturam API’sini kullanarak mağaza siparişlerinden e-Fatura / e-Arşiv faturası oluşturur, gönderilmeden önce onay isteyen bir taslak modu vardır.
 
 == Description ==
 
+Bu eklenti, hizmet sağlayıcının resmi bir ürünü değildir; TY E-Faturam API'sini kullanan bağımsız bir entegrasyondur.
+
+* Oturum açma ve erişim belirteci önbelleğe alma (Geçici Veri API'si); Şirket Kimliği ve Kullanıcı Kimliği belirteçten okunur.
+* E-Fatura/e-Arşiv türünü otomatik olarak belirlemek için mükellef sorgulama
+* **Taslak modu:** Faturalar önce taslak olarak kaydedilir ve "Onayla ve Gönder" ile gönderilir
+* Sipariş listesinde "Fatura" sütunu ve sipariş ekranında meta kutusu (AJAX)
+* Bekleyen/gönderilen fatura listeleri ve filtrelenebilir API kayıtları (30 gün saklanır)
+* ** Müşteri erişimi: ** Hesabım> Siparişler altındaki ve sipariş ayrıntıları sayfasındaki "Fatura (PDF)" düğmesi; PDF siteniz üzerinden yayınlanır ve sipariş anahtarı ile korunur
+* ** Müşteri e-postası: ** fatura tamamlandığında isteğe bağlı olarak indirme bağlantısı veya ekli PDF içeren bir e-posta gönderir; sipariş ekranından manuel olarak da gönderilebilir
+* ** Toplu faturalama: ** siparişler listesindeki toplu işlemler (faturalar oluşturun, taslakları onaylayın ve gönderin, siparişleri kontrol edin).
 This plugin is not an official product of the service provider; it is an independent integration that uses the TY E-Faturam API.
 
 * Sign-in and access token caching (Transients API); Company ID and User ID are read from the token
