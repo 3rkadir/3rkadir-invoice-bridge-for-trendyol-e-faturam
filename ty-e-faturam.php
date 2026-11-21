@@ -3,7 +3,7 @@
  * Plugin Name:       TY E-Faturam
  * Plugin URI:        https://developers.trendyolefaturam.com/docs
  * Description:       Creates e-Invoices / e-Archive invoices from store orders, automatically or manually, using the TY E-Faturam API.
- * Version:           1.4.3
+ * Version:           1.4.5
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Author:            Kadir Er
