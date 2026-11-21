@@ -1,6 +1,6 @@
 === TY E-Faturam ===
 Contributors: 3rkadir
-Tags: e-invoice, e-archive, invoice, turkey, orders
+Tags: e-invoice, e-fatura, e-arşiv, trendyol e faturam, e-archive, invoice, turkey, orders
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
